@@ -6,7 +6,7 @@ async function start(){
         const data = await response.json()
         createBreadList(data.message)
     }catch(e){
-        console.log("something went wrong ")
+        console.log("something went wrong in App")
     }
 }
 start()
